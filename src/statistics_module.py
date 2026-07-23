@@ -73,8 +73,16 @@ def maximum():
 # Function to calculate the correlation coefficient between runs and strike rate
 def correlation_runs_strike_rate():
 
-    correlation = df["Runs"].corr(df["Strike_Rate"])
+    correlation1 = df["Runs"].corr(df["Strike_Rate"])
 
-    return correlation
+    return correlation1
+
+
+# Function to calculate the correlation coefficient between runs and strike rate
+def correlation_Overs_Wickets():
+
+    correlation2 = df["Overs_Bowled"].corr(df["Wickets"])
+
+    return correlation2
 
 
