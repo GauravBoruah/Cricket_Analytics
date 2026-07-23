@@ -107,6 +107,9 @@ while True:
             print("Correlation between Runs and Strike Rate: ")
             print(correlation_runs_strike_rate())
 
+            print("Correlation between Overs and Wickets: ")
+            print(correlation_Overs_Wickets())
+
 
         # Visualization
         elif choice == 5 :
