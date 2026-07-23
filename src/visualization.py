@@ -76,7 +76,8 @@ def plot_pie_chart(df):
     team_runs = df.groupby("Team")["Runs"].sum()
 
     plt.figure(figsize=(10, 6))
-    plt.pie(team_runs.values,labels= team_runs.index)
+    plt.pie(team_runs.values,labels= team_runs.index,
+            autopct="%1.1f%%")
 
     plt.title("--Team Comparison--")
 
