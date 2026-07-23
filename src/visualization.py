@@ -23,6 +23,7 @@ def plot_bar_chart1(df):
 
     plt.title("Top 10 Batsmen")
     plt.xlabel("Player")
+    plt.xticks(rotation=90)
     plt.ylabel("Total Runs")
     plt.grid()
     plt.tight_layout()
@@ -42,6 +43,7 @@ def plot_bar_chart2(df):
 
     plt.title("Top 10 Bowlers")
     plt.xlabel("Player")
+    plt.xticks(rotation=90)
     plt.ylabel("Total Wickets")
     plt.grid()
     plt.tight_layout()
