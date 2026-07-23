@@ -79,7 +79,7 @@ def plot_pie_chart(df):
     plt.pie(team_runs.values,labels= team_runs.index,
             autopct="%1.1f%%")
 
-    plt.title("--Team Comparison--")
+    plt.title("Team Comparison Based on Total Runs")
 
     plt.tight_layout()
 
