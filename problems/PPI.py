@@ -22,7 +22,7 @@ df["PPI"] = (
 )
 
 ppi = df.groupby("Player")["PPI"].mean()
-ppi = ppi.sort_values(ascending=False)
+ppi = ppi.sort_values(ascending=False).round(2)
 
 print("PPI score of all the players: ")
 
