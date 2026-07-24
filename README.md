@@ -72,7 +72,7 @@ reports/
 
 ## Conclusion
 
-The Cricket Analytics project provides a simple and effective way to analyze cricket data using Python, 
-also the project defines a player performance index (ppi) which ranks players based on their overall performance. 
+The Cricket Analytics project provides a simple and effective way to analyze cricket data using Python. 
+The project defines a player performance index (ppi) which ranks players based on their overall performance. 
 In addition, an Ideal Playing XI is created by selecting the best players according to their performance,
 consisting of 4 batsmen, 4 bowlers, 2 all-rounders, and 1 wicketkeeper.
